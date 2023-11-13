@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "typed-scss": "typed-scss-modules \"./**/*.scss\" --ignore \"./node_modules/**/*.scss\" --aliases \"@designTokens\" common-design-folder",
+    "typed-scss": "typed-scss-modules \"./**/*.scss\" --ignore \"./node_modules/**/*.scss\" --aliases \"@designTokens\" common-design-folder --aliases.~designTokens common-design-folder",
     "typed-scss-with-config:": "typed-scss-modules \"./**/*.scss\""
   },
   "author": "",
