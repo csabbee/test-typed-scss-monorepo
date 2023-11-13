@@ -1,0 +1,6 @@
+@use "@designTokens/_tokens" as tokens;
+
+.test-class {
+  display: flex;
+  gap: tokens.$space-50;
+}

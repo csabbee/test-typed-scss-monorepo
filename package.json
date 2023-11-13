@@ -4,11 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "typed-scss": "typed-scss-modules \"./**/*.scss\" --ignore \"./node_modules/**/*.scss\" --aliases \"@designTokens\" common-design-folder",
+    "typed-scss-with-config:": "typed-scss-modules \"./**/*.scss\""
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "sass": "^1.69.5",
     "typed-scss-modules": "^7.1.4"
-  }
+  },
+  "workspaces": [
+    "workspace-a"
+  ]
 }
